@@ -1,6 +1,6 @@
 # colab-dlshogi-gd
 
-This program has been modified from the original colab-dlshogi to store SSH information on Google Drive.
+This program has been modified from the original colab-katago to store SSH information on Google Drive.
 
 https://github.com/TadaoYamaoka/DeepLearningShogi
 
