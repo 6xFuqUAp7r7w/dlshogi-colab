@@ -1,15 +1,15 @@
 #!/bin/bash
-GOOS=darwin GOARCH=amd64 go build -o ./bin/colab-katago-gd-for-mac 
-GOOS=linux GOARCH=amd64 go build -o ./bin/colab-katago-gd-for-linux
-GOOS=windows GOARCH=amd64 go build -o ./bin/colab-katago-gd-for-windows
+GOOS=darwin GOARCH=amd64 go build -o ./bin/colab-dlshogi-gd-for-mac 
+GOOS=linux GOARCH=amd64 go build -o ./bin/colab-dlshogi-gd-for-linux
+GOOS=windows GOARCH=amd64 go build -o ./bin/colab-dlshogi-gd-for-windows
 
 cd bin
 rm -rf *.zip
-cp colab-katago-gd-for-mac colab-katago-gd
-zip colab-katago-gd.mac.zip colab-katago-gd
-cp colab-katago-gd-for-linux colab-katago-gd
-zip colab-katago-gd.linux.zip colab-katago-gd
-cp colab-katago-gd-for-windows colab-katago-gd.exe
-zip colab-katago-gd.windows.zip colab-katago-gd.exe
-rm colab-katago-gd colab-katago-gd.exe
+cp colab-dlshogi-gd-for-mac colab-dlshogi-gd
+zip colab-dlshogi-gd.mac.zip colab-dlshogi-gd
+cp colab-dlshogi-gd-for-linux colab-dlshogi-gd
+zip colab-dlshogi-gd.linux.zip colab-dlshogi-gd
+cp colab-dlshogi-gd-for-windows colab-dlshogi-gd.exe
+zip colab-dlshogi-gd.windows.zip colab-dlshogi-gd.exe
+rm colab-dlshogi-gd colab-dlshogi-gd.exe
 cd -
