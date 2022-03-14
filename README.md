@@ -10,7 +10,8 @@ https://www.h-eba.com/Lizzie/gck.html
 
 **Korean Version**  
 
-**Japanese Version**
+**Japanese Version** 
+https://github.com/matobataketoshi/dlshogi-colab/blob/master/dlshogi_colab.ipynb
 
 **English Version**
 
