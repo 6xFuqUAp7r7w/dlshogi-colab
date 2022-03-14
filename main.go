@@ -131,23 +131,6 @@ func main() {
 	}
 	defer sshClient.Close()
 
-	configFile := KataGoConfigFile
-	if newConfig != nil {
-		// start the sesssion to do it
-		session, err := sshClient.NewSession()
-		if err != nil {
-			log.Fatal("failed to create ssh session", err)
-			return
-		}
-		defer session.Close()
-
-		cmd := fmt.Sprintf("%s %s", KataGoChangeConfigScript, *newConfig)
-		log.Printf("DEBUG running commad:%s\n", cmd)
-		configFile = fmt.Sprintf("/content/gtp_colab_%s.cfg", *newConfig)
-		session.Run(cmd)
-
-	}
-
 	session, err := sshClient.NewSession()
 	if err != nil {
 		log.Fatal("failed to create ssh session", err)
