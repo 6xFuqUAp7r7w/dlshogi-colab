@@ -78,9 +78,9 @@ type SSHOptions struct {
 
 const (
 	// dlshogiBin the bin file path
-	KataGoBin string = "/content/DeepLearningShogi/usi/bin/usi"
+	KataGoBin string = "/content/dlshogi"
 	// KataGoWeightFile the default weight file
-	KataGoWeightFile string = "/content/DeepLearningShogi/usi/bin/model-dr2_exhi.onnx"
+	KataGoWeightFile string = "/content/model-dr2_exhi.onnx"
 	// KataGoConfigFile the default config file
 	KataGoConfigFile string = "/content/katago-colab/config/gtp_colab.cfg"
 	// KataGoChangeConfigScript changes the config
