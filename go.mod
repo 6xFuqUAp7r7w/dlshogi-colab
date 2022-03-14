@@ -1,4 +1,4 @@
-module https://github.com/matobataketoshi/dlshogi-colab
+module github.com/matobataketoshi/dlshogi-colab
 
 go 1.14
 
