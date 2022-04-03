@@ -79,6 +79,8 @@ type SSHOptions struct {
 const (
 	// dlshogiBin the bin file path
 	KataGoBin string = "/content/dlshogi"	
+	// KataGoWeightFile the default weight file
+	KataGoWeightFile string = "/content/model.onnx"	
 )
 
 func main() {
