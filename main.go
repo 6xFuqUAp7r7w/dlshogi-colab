@@ -81,6 +81,8 @@ const (
 	KataGoBin string = "/content/dlshogi"	
 	// KataGoWeightFile the default weight file
 	KataGoWeightFile string = "/content/model.onnx"	
+	// KataGoConfigFile the default config file
+	KataGoConfigFile string = "/content/model-dr2_exhi.onnx.ini"
 )
 
 func main() {
